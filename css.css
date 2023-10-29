@@ -1,41 +1,48 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
 }
 
 header {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
     text-align: center;
-}
-
-header h1 {
-    margin: 0;
+    padding: 10px 0;
 }
 
 nav ul {
-    list-style: none;
     padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    margin: 0 10px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ddd;
 }
 
 main {
+    text-align: center;
     padding: 20px;
 }
 
 footer {
-    text-align: center;
-    padding: 20px 0;
     background-color: #333;
     color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
