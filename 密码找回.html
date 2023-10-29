@@ -1,0 +1,12 @@
+<!-- 密码找回 -->
+<form id="passwordResetForm">
+    <input type="text" id="resetUsername" placeholder="Username">
+    <button type="submit">Reset Password</button>
+</form>
+
+<script>
+    document.getElementById('passwordResetForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        // 发送密码重置请求到服务器
+    });
+</script>

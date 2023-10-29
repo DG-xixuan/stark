@@ -1,0 +1,25 @@
+<!-- 注册 -->
+<form id="registerForm">
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button type="submit">Register</button>
+</form>
+
+<!-- 登录 -->
+<form id="loginForm">
+    <input type="text" id="loginUsername" placeholder="Username">
+    <input type="password" id="loginPassword" placeholder="Password">
+    <button type="submit">Login</button>
+</form>
+
+<script>
+    document.getElementById('registerForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        // 发送注册信息到服务器
+    });
+
+    document.getElementById('loginForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        // 发送登录信息到服务器
+    });
+</script>

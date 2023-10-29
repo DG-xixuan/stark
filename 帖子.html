@@ -1,0 +1,13 @@
+<!-- 发布论坛帖子 -->
+<form id="postForm">
+    <input type="text" id="postTitle" placeholder="Title">
+    <textarea id="postContent" placeholder="Content"></textarea>
+    <button type="submit">Post</button>
+</form>
+
+<script>
+    document.getElementById('postForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        // 发送帖子信息到服务器
+    });
+</script>
